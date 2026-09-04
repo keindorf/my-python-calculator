@@ -2,6 +2,17 @@
 # Created for Git/GitHub Learning
 
 print("=== Simple Calculator ===")
+print("Choose your mode:")
+print("1. Normal Calculator")
+print("2. Fun Calculator")
+
+mode = input("Enter your choice (1 or 2): ")
+
+if mode == "2":
+    print("\n🎉 FUN CALCULATOR MODE! 🎉")
+    print("=" * 30)
+else:
+    print("\n=== Normal Calculator Mode ===")
 
 # Get numbers from user
 num1 = float(input("Enter first number: "))
