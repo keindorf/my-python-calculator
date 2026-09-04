@@ -2,6 +2,7 @@
 # Created for Git/GitHub Learning
 
 print("=== Simple Calculator ===")
+print("Welcome! This calculator will show you all four operations in other ways.")
 print("Choose your mode:")
 print("1. Normal Calculator")
 print("2. Fun Calculator")
